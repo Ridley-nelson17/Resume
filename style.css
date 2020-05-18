@@ -1,0 +1,180 @@
+:root {
+    color-scheme: light dark;
+    
+    --body-text-color: black;
+    --background: white;
+    
+    --normal_font-family: Arial;
+}
+
+@media (color-scheme-listener: dark) {
+    
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: black;
+        --body-text-color: white;
+    }
+}
+
+body {
+    margin: 0;
+    background-color: var(--background);
+    font-family: var(--normal_font-family);
+}
+
+H1, p {
+    color: var(--body-text-color);
+}
+
+.name-title {
+    left: 5px;
+    top: 5px;
+    position: absolute;
+}
+
+.title {
+    font-size: 2.5em;
+}
+
+.social-table {
+    right: 5px;
+    top: 5px;
+    position: absolute;
+}
+
+header {
+    padding: 1px;
+    position: relative;
+}
+
+main {
+    padding: 1px;
+    position: relative;
+}
+
+footer {
+    padding: 1px;
+    position: relative;
+}
+
+.fa {
+  padding: 5px;
+  font-size: 10px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  /*margin: 2.5px 1px;*/
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: red;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-github {
+  background: #1c1e21;
+  color: white;
+}
+
+.fa-comment {
+  background: lime;
+  color: white;
+}
+
+.fa-stumbleupon {
+  background: #eb4924;
+  color: white;
+}
+
+.fa-phone {
+  background: #f40083;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+.fa-apple {
+  background: #1c1e21;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
+
+.fa-envelope {
+    background: #eb4924;
+    color: white;
+}
