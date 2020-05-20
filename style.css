@@ -52,6 +52,8 @@ header {
 main {
     margin-left: 5px;
     margin-top: 60px;
+    width: 75%;
+    overflow: hidden;
     padding: 1px;
     position: relative;
 }
